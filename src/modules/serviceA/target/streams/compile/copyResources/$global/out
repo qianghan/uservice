@@ -1,0 +1,3 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/i057224/Documents/Codes/multiproject/src/modules/serviceA/conf/serviceA-application.conf,/Users/i057224/Documents/Codes/multiproject/src/modules/serviceA/target/scala-2.10/classes/serviceA-application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/i057224/Documents/Codes/multiproject/src/modules/serviceA/conf/serviceA.routes,/Users/i057224/Documents/Codes/multiproject/src/modules/serviceA/target/scala-2.10/classes/serviceA.routes)[0m
