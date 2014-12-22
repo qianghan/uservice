@@ -30,8 +30,9 @@ EXPOSE 8888 9000
 WORKDIR /code
 ADD src /code/src
 
-#WORKDIR /code/src
+WORKDIR /code/src
 #RUN activator "run 9000"
 
+CMD ["activator", "run 9000"]
 
-CMD ["/home/activator-latest/activator","ui","-Dhttp.address=0.0.0.0","-Dorg.slf4j.simpleLogger.defaultLogLevel=trace"]
+#CMD ["/home/activator-latest/activator","ui","-Dhttp.address=0.0.0.0","-Dorg.slf4j.simpleLogger.defaultLogLevel=trace"]
